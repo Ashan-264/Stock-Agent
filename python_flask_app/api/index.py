@@ -31,7 +31,7 @@ CORS(app)
 # Access API keys
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-ALPHA_VAN_API =  "WCR4QPDRTD171YR4" #os.getenv("ALPHA_VAN_API")
+ALPHA_VAN_API = os.getenv("ALPHA_VAN_API")
 
 # HuggingFace Embeddings Model
 embedding_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
